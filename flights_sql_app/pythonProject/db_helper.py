@@ -9,7 +9,7 @@ class DB:
             self.conn = pymysql.connect(
                 host='127.0.0.1',
                 user='root',
-                password='rareview',
+                password='your_password',
                 database='indigo'  # if you want to connect to a specific database
             )
             self.mycursor = self.conn.cursor()
