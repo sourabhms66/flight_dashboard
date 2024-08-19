@@ -75,6 +75,12 @@ elif user_option =='Analytics':
 
 
 else:
-    st.title("Talk about the project")
+    st.title(""" This project is about Historical Data Analysis.
+    Here's some key features that are included in this project
+    1. Flight Search and Filters
+    2. Departure and Arrival Information
+    3. Airline Performance Analytics
+    4. Interactive Data Visualization
+    """)
 
 
