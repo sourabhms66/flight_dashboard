@@ -5,7 +5,7 @@ try:
     conn = pymysql.connect(
         host='127.0.0.1',
         user='root',
-        password='rareview',
+        password='your_password',
         database='indigo'  # if you want to connect to a specific database
     )
     mycursor = conn.cursor()
